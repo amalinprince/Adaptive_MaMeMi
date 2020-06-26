@@ -1,6 +1,6 @@
 % Copyright (C) Rakshit Mittal, Amalin Prince, Birla Institute of Tehnology
 % & Science, Goa, India.
-% amalinprince@goa.bits-pilani.ac.in
+% amalinprince@gmail.com
 %
 % This work is used in the publication of "Low-Power Hardware Accelerator
 % for Detrending Measured Biopotential Data" in IEEE Transactions on
