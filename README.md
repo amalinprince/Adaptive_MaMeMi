@@ -1,4 +1,4 @@
-# Adaptive-MaMeMi
+# Adaptive-MaMeMi Filter
 ### This repository contains the MATLAB code and XILINX VIVADO files used in the design of the work described in the publication, "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data".
 
 Copyright (C) Rakshit Mittal, Amalin Prince, Birla Institute of Tehnology & Science, Goa, India.
@@ -8,10 +8,10 @@ This work is used in the publication of "Low-Power Hardware Accelerator for Detr
 Biopotential Data" in IEEE Transactions on Instrumentation & Measurement
 available on : <website>
 
-Cite this as: 
-Mittal,Rakshit, et al. "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data." 
-IEEE Transactions on Instrumentation and Measurement
-
+Cite this as:
+```
+Mittal,Rakshit, et al. "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data." IEEE Transactions on Instrumentation and Measurement
+```
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except 
 in compliance with the License. You may obtain a copy of the License at
 
