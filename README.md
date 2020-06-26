@@ -22,12 +22,16 @@ is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND
 implied. See the License for the specific language governing permissions and limitations under the 
 License.
 
+#### MATLAB is used for the theoretical simulation study, Xilinx Vivado 2016.4 system edition is used for the hardware-software implementation.
+
+##### The code and infrastructure can be used by developers and researchers to test many other methods as well.
+
 ## Guide to files in the repository
 
 1. **AMaMeMi.m** --> This program simulates the AMaMeMi filter to process data in all the matfiles in the specified input directory. This program only returns the final result, in a 'result' folder within the input directory. If you wish to track the intermediate variables, please refer to the program titled 'AMaMeMi_expanded.m'
 2. **AMaMeMi_expanded.m** --> This program simulates the AMaMeMi filter to process data in a single file. The user can load the value from a matfile or from a variable directly in the workspace.
 3. **Single_file_AMaMeMi.m** --> % This program simulates the AMaMeMi filter to process data in a single file. The user can load the value from a matfile or from a variable directly in the workspace. This program only returns the final result, in a 'result' variable. If you wish to track the intermediate variables, please refer to the program titled 'AMaMeMi_expanded.m'
-4. **SysGenRun.m** --> This program simulates the system generator file titled 'Filter_Basic' The input data for the hardware simulation comes from the folder Database. The output is stored in the matfile 'hwout.mat' and the 2-clock cycle delay is accounted for. PLEASE NOTE that you need to execute this code in System Generator and not MATLAB.
+4. **SysGenRun.m** --> This program simulates the system generator file titled 'Filter_Basic' The input data for the hardware simulation comes from the folder Database. The output is stored in the matfile 'hwout.mat' and the 2-clock cycle delay is accounted for. PLEASE NOTE that you need to execute this code in Xilinx System Generator and not MATLAB.
 5. **HW_impl/** --> This folder contains the files associated with the hardware implementation architecture.
      1. **hwcosim/** --> This folder contains the file **filterfpgadesign.xpr** which is the Xilinx Vivado project file for the hardware implementation.
      2. **ip/** --> This folder contains the *Intellectual Property (IP)* design of the accelerator which can be imported into a Xilinx project using the IP Configuration Wizard
