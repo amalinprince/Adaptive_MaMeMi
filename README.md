@@ -1,5 +1,5 @@
 # Adaptive-MaMeMi
-### MATLAB code and XILINX VIVADO files used in the design of the work described in the publication, "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data".
+### This repository contains the MATLAB code and XILINX VIVADO files used in the design of the work described in the publication, "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data".
 
 Copyright (C) Rakshit Mittal, Amalin Prince, Birla Institute of Tehnology & Science, Goa, India.
 correspondence: amalinprince@gmail.com
@@ -24,18 +24,18 @@ License.
 
 ## Guide to files in the repository
 
-1. AMaMeMi.m -->
-2. AMaMeMi_expanded.m -->
-3. Single_file_AMaMeMi.m -->
-4. SysGenRun.m -->
-5. HW_impl/ -->
-     1. hwcosim/ -->
-     2. ip/
-     3. System_Generator/ -->
-          1. Filter_Basic.slx -->
-          2. FilterFPGADesign.slx -->
-6. Statiscal_Analysis/
-     1. Freq_resp_gen.m --> 
-     2. RMSE_gen.m -->
-     3. SNR_analysis.m -->
-     4. XCorr_gen.m -->
+1. **AMaMeMi.m** --> This program simulates the AMaMeMi filter to process data in all the matfiles in the specified input directory. This program only returns the final result, in a 'result' folder within the input directory. If you wish to track the intermediate variables, please refer to the program titled 'AMaMeMi_expanded.m'
+2. **AMaMeMi_expanded.m** --> This program simulates the AMaMeMi filter to process data in a single file. The user can load the value from a matfile or from a variable directly in the workspace.
+3. **Single_file_AMaMeMi.m** --> % This program simulates the AMaMeMi filter to process data in a single file. The user can load the value from a matfile or from a variable directly in the workspace. This program only returns the final result, in a 'result' variable. If you wish to track the intermediate variables, please refer to the program titled 'AMaMeMi_expanded.m'
+4. **SysGenRun.m** --> This program simulates the system generator file titled 'Filter_Basic' The input data for the hardware simulation comes from the folder Database. The output is stored in the matfile 'hwout.mat' and the 2-clock cycle delay is accounted for. PLEASE NOTE that you need to execute this code in System Generator and not MATLAB.
+5. **HW_impl/** --> This folder contains the files associated with the hardware implementation architecture.
+     1. **hwcosim/** --> This folder contains the file **filterfpgadesign.xpr** which is the Xilinx Vivado project file for the hardware implementation.
+     2. **ip/** --> THis folder contains the *Intellectual Property (IP)* design of the accelerator which can be imported into a Xilinx project using the IP Configuration Wizard
+     3. **System_Generator/** --> This folder contains the Simulink files for the architecture to be accessed and simulated using Xilinx System Generator.
+          1. **Filter_Basic.slx** --> The basic hardware accelerator architecture that was implemented in the FPGA.
+          2. **FilterFPGADesign.slx** --> The architecture used for simulation and verification of the design.
+6. **Statiscal_Analysis/**
+     1. **Freq_resp_gen.m** --> This program generates the frequency response for different valus of delta and sigma which changes according to iterations over the variables xfactor and yfactor.
+     2. **RMSE_gen.m** --> This program generates the RMSE for the datasets used in the paper.
+     3. **SNR_analysis.m** --> This program generates the SNR for the datasets used in this paper.
+     4. **XCorr_gen.m** --> This program generates the cross correlation for the datasets used in the paper.
