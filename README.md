@@ -30,7 +30,7 @@ License.
 4. **SysGenRun.m** --> This program simulates the system generator file titled 'Filter_Basic' The input data for the hardware simulation comes from the folder Database. The output is stored in the matfile 'hwout.mat' and the 2-clock cycle delay is accounted for. PLEASE NOTE that you need to execute this code in System Generator and not MATLAB.
 5. **HW_impl/** --> This folder contains the files associated with the hardware implementation architecture.
      1. **hwcosim/** --> This folder contains the file **filterfpgadesign.xpr** which is the Xilinx Vivado project file for the hardware implementation.
-     2. **ip/** --> THis folder contains the *Intellectual Property (IP)* design of the accelerator which can be imported into a Xilinx project using the IP Configuration Wizard
+     2. **ip/** --> This folder contains the *Intellectual Property (IP)* design of the accelerator which can be imported into a Xilinx project using the IP Configuration Wizard
      3. **System_Generator/** --> This folder contains the Simulink files for the architecture to be accessed and simulated using Xilinx System Generator.
           1. **Filter_Basic.slx** --> The basic hardware accelerator architecture that was implemented in the FPGA.
           2. **FilterFPGADesign.slx** --> The architecture used for simulation and verification of the design.
