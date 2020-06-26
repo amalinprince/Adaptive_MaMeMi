@@ -1,6 +1,6 @@
 % Copyright (C) Rakshit Mittal, Amalin Prince, Birla Institute of Tehnology
 % & Science, Goa, India.
-% amalinprince@goa.bits-pilani.ac.in
+% amalinprince@gmail.com
 %
 % This work is used in the publication of "Low-Power Hardware Accelerator
 % for Detrending Measured Biopotential Data" in IEEE Transactions on
@@ -28,7 +28,7 @@
 % The input data for the hardware simulation comes from the folder Database
 % The output is stored in the matfile 'hwout.mat' and the 2-clock cycle 
 % delay is accounted for. PLEASE NOTE that you need to execute this code
-% in System Generator and not MATLAB.
+% in Xilinx System Generator and not MATLAB.
 %--------------------------------------------------------------------------
 
 %Code Begins
