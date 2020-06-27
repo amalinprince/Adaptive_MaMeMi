@@ -1,7 +1,7 @@
 # Adaptive-MaMeMi Filter
 ### This repository contains the MATLAB code and XILINX VIVADO files used in the design of the work described in the publication, "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data".
 
-Copyright (C) Rakshit Mittal, Amalin Prince, Birla Institute of Tehnology & Science, Goa, India.
+Copyright (C) Rakshit Mittal, Amalin Prince, Birla Institute of Tehnology & Science-Pilani, Goa, India.
 correspondence: amalinprince@gmail.com
 
 This work is used in the publication of "Low-Power Hardware Accelerator for Detrending Measured 
