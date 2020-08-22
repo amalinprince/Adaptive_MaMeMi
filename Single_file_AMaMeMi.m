@@ -3,14 +3,15 @@
 % amalinprince@gmail.com
 %
 % This work is used in the publication of "Low-Power Hardware Accelerator
-% for Detrending Measured Biopotential Data" in IEEE Transactions on
-% Instrumentation & Measurement
-% available on : <website>
+% for Detrending Measured Biopotential Data", IEEE Transactions on
+% Instrumentation & Measurement, 2020.
+% available on : https://ieeexplore.ieee.org/document/9171901
 %
 % Cite this as: 
-% Mittal,Rakshit, et al. "Low-Power Hardware Accelerator for Detrending
-% Measured Biopotential Data." IEEE Transactions on Instrumentation and
-% Measurement
+% R. Mittal, A. A. Prince, S. Nalband, F. Robert and A. R. J. Fredo, 
+% "Low-Power Hardware Accelerator for Detrending Measured Biopotential Data," 
+% in IEEE Transactions on Instrumentation and Measurement, 
+% doi: 10.1109/TIM.2020.3018235.
 % Licensed under the Apache License, Version 2.0 (the "License");
 % you may not use this file except in compliance with the License.
 % You may obtain a copy of the License at
